@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/product_no"
+            style="@style/text_gray_normal"
+            android:singleLine="true"
+            android:layout_toLeftOf="@+id/product_btn"
+            android:hint="条码号/名称"
+            android:text="" />
+
+        <LinearLayout
+            android:id="@+id/product_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <Button
+                android:id="@+id/product_search"
+                style="@style/btn_gray_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查询" />
+
+            <Button
+                android:id="@+id/product_scan"
+                style="@style/btn_gray_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="条码扫描" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <jjs.com.simple.widgets.LoadMoreListView
+        android:id="@+id/product_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dp"
+        android:scrollbars="none"
+        app:plaColumnNumber="1" />
+
+</LinearLayout>

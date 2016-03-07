@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">简</string>
+
+
+    <string name="splash_copyright">Copyright &#169; 2016  All Rights Reserved\nPowered by XXX</string>
+    <string name="splash_slogan">XXXX</string>
+    <string name="splash_version">V %1$s</string>
+    <string name="double_click_exit">再按一次退出</string>
+    <string name="common_load_more_end">没有更多数据</string>
+
+    <string name="btn_history">历史</string>
+    <string name="btn_picture">图片</string>
+    <string name="btn_light">灯光</string>
+    <string name="btn_ok">确定</string>
+    <string name="qrcode">二维码</string>
+    <string name="barcode">条形码</string>
+    <string name="tips_open_camera_error">打开相机失败,请确保允许应用使用相机权限后重试!</string>
+    <string name="tips_decode_null">未解析到任何数据</string>
+
+    <string name="title_image_picker">本地相册</string>
+
+</resources>
